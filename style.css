@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #333;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.rating
+{
+    position: relative;
+    display: flex;
+    padding: 30px 40px;
+    border: 3px solid #111;
+    background: #353535;
+    box-shadow: 30px 30px 30px -10px rgba(0,0,0,0,5),;
+}
